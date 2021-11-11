@@ -1,6 +1,6 @@
 # Flask Tutorial
 
-I created this repo in order to follow step by step the Flask Full Tutorial by freecodecamp Youtube channel.
+I created this repo in order to follow step by step the Flask tutorial by Freecodecamp Youtube channel.
 
 ## In this course, i will learn:
 
