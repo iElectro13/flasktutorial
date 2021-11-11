@@ -58,36 +58,34 @@ I created this repo in order to follow step by step the Flask tutorial by Freeco
 
 - Double curly brackets: '{{}}'
 
-  
-  
 
-- In order to extend html code, we need to use this syntax in our base file:
+**- In order to extend html code, we need to use this syntax in our base file:**
 
-  
 
-    {% block body %}
-    
-    {% endblock %}
-    
-      
-    
-    Then, in the secondary file (the file that needs to inherit the main html code):
-    
-      
-    
-    {% extends 'base.html' %}
-    
-      
-    
-    {% block body %}
-    
-    HTML CODE HERE
-    
-    {% endblock %}
-    
-      
+~~~
+{% block body %}
 
-- In order to link the style sheet, use:
+{% endblock %}
+~~~
 
-    ~~'static/css/main.css'~~
-    {{ url_for('static', filename='css/main.css') }}
+
+  Then, in the secondary file (the file that needs to inherit the main html code):
+
+
+~~~
+{% extends 'base.html' %}
+
+
+
+{% block body %}
+
+HTML CODE HERE
+
+{% endblock %}
+~~~
+
+
+- Instead of the traditional way to link an style sheet, we use this syntax inside href="":
+~~~
+{{ url_for('static', filename='css/main.css') }}
+~~~
