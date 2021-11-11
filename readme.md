@@ -1,0 +1,12 @@
+# Flask Tutorial
+
+I created this repo in order to follow step by step the Flask Full Tutorial by freecodecamp Youtube channel.
+
+## In this course, i will learn:
+
+ - Setup and workflow
+ - Get a basic app running
+ - *Templates* and *Static Content*
+ - Setting up and using Database (***SQLite***)
+ - Create a basic ***CRUD*** application
+ - Deploy to ***Heroku***
