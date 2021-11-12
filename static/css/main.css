@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
 body {
-    background-color: green;
+    background-color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    background-color: white;
+    box-shadow: 1px 1px 20px black;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+table {
+    margin: auto;
+    width: 80%;
+
+}
+
+table, td, th {
+    border: 1px solid #aaa;
+
+}
+
+table {
+    border-collapse: collapse;
+    
+
+}
+
+th {
+    height: 30px;
+    
+}
+
+td {
+    text-align: center;
+    padding: 5px;
 }
